@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Каталог "DEVICE"</title>
+  </head>
+  <body>
+    <header>
+      <!--Верхняя панель-->
+      <div class="top1">
+        <img src="assets/images/logo.png" alt="Device Logo1" />
+      </div>
+      <nav class="middle1">
+        <!--Навигация по сайту-->
+        <ul>
+          <li><input type="text" placeholder="Поиск по сайту" /></li>
+          <li><a href="#">Никита Шиян</a></li>
+          <li><a href="#">Выйти</a></li>
+          <li><a href="#">Сравнить</a></li>
+          <li><a href="#">Корзина</a></li>
+        </ul>
+      </nav>
+      <nav class="bottom1">
+        <!--Навигация по сайту-->
+        <ul>
+          <li>
+            <a href="#">Каталог товаров</a>
+            <ul>
+              <li><a href="#">Виртуальная реальность</a></li>
+              <li><a href="#">Моноподы для селфи</a></li>
+              <li><a href="#">Экшн–камеры</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Фитнес–браслеты</a></li>
+              <li><a href="#">Умные часы</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Квадрокоптеры</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="name_catalog">Моноподы для селфи</h1>
+      <ul class="bread_crumbs">
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a href="#">Католог товаров</a>
+        </li>
+        <li>
+          <a href="#">Моноподы для селфи</a>
+        </li>
+      </ul>
+      <div class="filtres">
+        <h4>Фильтры</h4>
+        <h5>Стоимость</h5>
+        <input type="range" name="Стоимость" id="price" />
+        <br />
+        <span class="restriction">От 0 До 5 000</span>
+        <h5>Цвет</h5>
+        <ul class="colour">
+          <li>
+            <input type="checkbox" name="Цвет" id="black" />
+            <span class="name_colour">Черный</span>
+          </li>
+          <li>
+            <input type="checkbox" name="Цвет" id="white" />
+            <span class="name_colour">Белый</span>
+          </li>
+          <li>
+            <input type="checkbox" name="Цвет" id="blue" />
+            <span class="name_colour">Синий</span>
+          </li>
+          <li>
+            <input type="checkbox" name="Цвет" id="red" />
+            <span class="name_colour">Красный</span>
+          </li>
+          <li>
+            <input type="checkbox" name="Цвет" id="pink" />
+            <span class="name_colour">Розовый</span>
+          </li>
+        </ul>
+        <h5>Bluetooth</h5>
+        <ul class="bluetooth_available">
+          <li>
+            <input type="radio" name="Наличие" id="have" />
+            <span class="answer_for_bluetooth_available">Есть</span>
+          </li>
+          <li>
+            <input type="radio" name="Наличие" id="have" />
+            <span class="answer_for_bluetooth_available">Нет</span>
+          </li>
+        </ul>
+        <a class="show" href="#">Показать</a>
+      </div>
+    </main>
+  </body>
+</html>
